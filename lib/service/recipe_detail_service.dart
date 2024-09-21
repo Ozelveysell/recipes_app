@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:recipes_app/model/recipe_detail_model.dart';
 
 class RecipeDetailService {
-  final String _apiKey = '96e51321c4a746819f7304de0f133043';
+  final String _apiKey = 'YOUR_API_KEY';
 
   Future<RecipeDetailModel> fetchRecipeDetail(int recipeId) async {
     final url = Uri.parse(
