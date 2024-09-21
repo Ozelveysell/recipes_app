@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:recipes_app/model/recipe_model.dart';
 
 class RecipeService {
-  final String apiKey = '96e51321c4a746819f7304de0f133043';
+  final String apiKey = 'YOUR_API_KEY';
   final String baseUrl = 'https://api.spoonacular.com/recipes/complexSearch';
 
   Future<List<RecipeModel>> fetchRecipes() async {
